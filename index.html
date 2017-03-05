@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>How Much Do You Know About Cats?</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+</head>
+
+
+<body>
+<header id="masthead">
+		<div class="container">
+			<h1>How Much Do You Know About Cats?</h1>
+			<h3 class="rules">You have 40 seconds to answer 4 questions!</h3>
+		</div>
+	</header>
+<div class="container content">
+
+    <div class="main-section">
+		<section class="data">
+
+			<div class="time">
+				<p class="counter"></p>
+			</div>
+
+
+			<form action="#">
+				<label>A cat has how many whiskers, on average?</label> <br>
+				<input type="radio" value="A" name="whisker"> 8 <br>
+				<input type="radio" value="B" name="whisker"> 12 <br> 
+				<input type="radio" value="C" name="whisker"> 16 <br>
+				<input type="radio" value="D" name="whisker"> 24 <br>
+
+
+				<label>All of the following are the names of cat breeds, except:</label> <br>
+				<input type="radio" value="E" name="breed"> Birman <br>
+				<input type="radio" value="F" name="breed"> Burmilla <br> 
+				<input type="radio" value="G" name="breed"> Beauceron <br>
+				<input type="radio" value="H" name="breed"> Balinese <br>
+
+
+				<label>Cats can't taste this:</label> <br>
+				<input type="radio" value="I" name="taste"> Salt <br>
+				<input type="radio" value="J" name="taste"> Sour <br> 
+				<input type="radio" value="K" name="taste"> Sweet <br>
+				<input type="radio" value="L" name="taste"> Bitter <br>
+
+
+				<label>What’s the total number of claws that most house cats have?</label> <br>
+				<input type="radio" value="M" name="claw"> 16 <br>
+				<input type="radio" value="N" name="claw"> 18 <br> 
+				<input type="radio" value="O" name="claw"> 20 <br>
+				<input type="radio" value="P" name="claw"> None of the Above <br>	
+			</form>
+
+
+			<button class="btn btn-primary done">Done</button>
+		</section>
+	</div>
+
+	<div class="result">
+		<p class="correct"></p>
+		<p class="incorrect"></p>
+		<p class="empty"></p>
+	</div>
+
+	<button class="btn btn-primary start">Start Game !!! </button>
+
+</div>
+<footer id="footer" class="site-footer">
+	<div class="container">
+		&copy; Copyright 2017 Shirley Xie
+	</div>
+</footer>
+
+<script type="text/javascript" src="./assets/javascript/app.js"></script>
+</body>
+</html>
